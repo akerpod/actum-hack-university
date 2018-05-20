@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css?family=Jura|Pacifico|Bad+Script");
+.sign-page {
+  margin-top: 0 !important;
+  height: 100%;
+}
+.sign-page .row {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+.sign-page .row .left-part {
+  padding: 0 !important;
+  position: relative !important;
+  overflow: hidden;
+}
+.sign-page .row .left-part .sign-bg {
+  background-image: url("../images/sign/sign-bg.jpg");
+  background-position: 20% center;
+  background-size: auto 100%;
+  animation-name: big;
+  animation-duration: 3s;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.sign-page .row .left-part .shadow-bg {
+  background-color: rgba(0,0,0,0.6);
+  vertical-align: top;
+  display: table;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+.sign-page .row .left-part .sign-logo {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+}
+.sign-page .row .left-part .sign-logo .logo-img {
+  margin: 180px auto 20px auto;
+  background-image: url("../images/sign/sign-logo.svg");
+  width: 113px;
+  height: 135px;
+}
+.sign-page .row .left-part .sign-logo .logo-text {
+  margin: 40px auto;
+  display: table;
+  font-family: 'Pacifico', cursive;
+  font-size: 32px;
+  color: #fff;
+  text-shadow: 0 0 0 10px #000;
+}
+.sign-page .row .left-part .sign-logo .welcome-text {
+  margin: 20px auto 0 auto;
+  display: table;
+  width: 80%;
+  font-family: 'Bad Script', sans-serif;
+  font-size: 24px;
+  text-align: center;
+  text-shadow: 0 0 0 10px #000;
+}
+.sign-page .row .right-part {
+  background-color: #130e1f;
+}
+.sign-page .row .right-part .sign-back {
+  position: absolute;
+  top: 25px;
+  left: 30px;
+  opacity: 0.6;
+  transition: opacity 0.4s 0s ease-out;
+  -moz-transition: opacity 0.4s 0s ease-out;
+  -webkit-transition: opacity 0.4s 0s ease-out;
+  -o-transition: opacity 0.4s 0s ease-out;
+}
+.sign-page .row .right-part .sign-back:hover {
+  opacity: 1;
+}
+.sign-page .row .right-part .sign-up,
+.sign-page .row .right-part .sign-in {
+  margin: 80px auto;
+  width: 380px;
+}
+.sign-page .row .right-part .sign-up .header,
+.sign-page .row .right-part .sign-in .header {
+  margin-bottom: 40px;
+  font-family: 'Pacifico', sans-serif;
+  font-weight: 300;
+  font-size: 35px;
+}
+.sign-page .row .right-part .sign-in {
+  margin: 160px auto;
+}
+.sign-page .row .right-part .field input {
+  background: transparent !important;
+  color: #fff;
+  border: 1px solid rgba(255,255,255,0.4);
+}
+.sign-page .row .right-part .field input:focus {
+  border-color: rgba(255,255,255,0.8);
+  transition: all 0.4s 0s ease-out;
+  -moz-transition: all 0.4s 0s ease-out;
+  -webkit-transition: all 0.4s 0s ease-out;
+  -o-transition: all 0.4s 0s ease-out;
+}
+.sign-page .row .right-part .button {
+  box-shadow: 0px 0px 0px 1px !important;
+  transition: all 0.2s 0s ease-out;
+  -moz-transition: all 0.2s 0s ease-out;
+  -webkit-transition: all 0.2s 0s ease-out;
+  -o-transition: all 0.2s 0s ease-out;
+}
+@-moz-keyframes big {
+  from {
+    width: 120%;
+    height: 120%;
+    top: -10%;
+    left: -10%;
+  }
+  to {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+  }
+}
+@-webkit-keyframes big {
+  from {
+    width: 120%;
+    height: 120%;
+    top: -10%;
+    left: -10%;
+  }
+  to {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+  }
+}
+@-o-keyframes big {
+  from {
+    width: 120%;
+    height: 120%;
+    top: -10%;
+    left: -10%;
+  }
+  to {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+  }
+}
+@keyframes big {
+  from {
+    width: 120%;
+    height: 120%;
+    top: -10%;
+    left: -10%;
+  }
+  to {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+  }
+}

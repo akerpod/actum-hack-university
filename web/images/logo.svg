@@ -1,0 +1,14 @@
+<svg width="23" height="28" viewBox="0 0 23 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 0V127.5" transform="translate(21 5.25) scale(0.1)" stroke="white" stroke-width="12"/>
+<path d="M75 44.6708L0 90V0" transform="translate(13.5 9) scale(0.1)" stroke="white" stroke-width="12"/>
+<circle cx="15" cy="15" r="15" transform="translate(12 7.5) scale(0.1)" fill="white"/>
+<circle cx="15" cy="15" r="15" transform="translate(19.5 16.5) scale(0.1)" fill="white"/>
+<circle cx="15" cy="15" r="15" transform="translate(19.5 3.75) scale(0.1)" fill="white"/>
+<path d="M0 0V165" transform="translate(1.5 1.5) scale(0.1)" stroke="white" stroke-width="12"/>
+<path d="M0 0V165" transform="translate(9 9) scale(0.1)" stroke="white" stroke-width="12"/>
+<path d="M0 0H75" transform="translate(1.49982 13.5371) scale(0.1)" stroke="white" stroke-width="12"/>
+<circle cx="15" cy="15" r="15" transform="scale(0.1)" fill="white"/>
+<circle cx="15" cy="15" r="15" transform="translate(0 16.5) scale(0.1)" fill="white"/>
+<circle cx="15" cy="15" r="15" transform="translate(7.5 7.5) scale(0.1)" fill="white"/>
+<circle cx="15" cy="15" r="15" transform="translate(7.5 24) scale(0.1)" fill="white"/>
+</svg>

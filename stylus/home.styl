@@ -1,0 +1,148 @@
+// out: ../web/css/home.css, compress: false
+
+// Created By Jinex GSX <jinex.gsx@gmail.com> 
+
+path-images = "../images/"
+
+@import url('https://fonts.googleapis.com/css?family=Jura|Pacifico|Bad+Script')
+
+transition(attr, duration, delay, func)
+    transition: attr duration delay func
+    -moz-transition: attr duration delay func
+    -webkit-transition: attr duration delay func
+    -o-transition: attr duration delay funcx
+
+@keyframes big
+    from
+        width: 120%
+        height: 120%
+        top: -10%
+        left: -10%
+    to
+        width: 100%
+        height: 100%
+        top: 0
+        left: 0
+
+.hidden.menu
+    display: none
+
+.masthead.segment
+    width: 100%
+    min-height: 700px
+    padding: 10px 0
+    position: relative
+
+    .bg
+        background-image: url(path-images + "bg.jpeg")
+        background-position: center center
+        background-size: 100% auto
+        animation-name: big
+        animation-duration: 2s
+        width: 100%
+        height: 100%
+        position: absolute
+        top: 0
+        left: 0
+        z-index: 1
+
+    .shadow-bg
+        background-color: rgba(0,0,0,.6)
+        vertical-align: top
+        margin-top: -1em
+        position: absolute
+        width: 100%
+        height: 100%
+        z-index: 2
+
+    .container-wrap
+        position: absolute
+        width: 100%
+        height: 100%
+        z-index: 3
+        display: table
+
+    .ui.menu .ui.button
+        margin-left: 0.5em
+        transition(all, 0.2s, 0s, ease-out)
+
+    .logo.item
+        background-image: url(path-images + "sign/sign-logo.svg");
+        width: 113px;
+        height: 135px;
+        margin: 80px auto 0 auto
+
+    h1.ui.header
+        margin-top: 20px
+        margin-bottom: 0
+        font-size: 3.5em
+        font-weight: 50
+        font-family: 'Pacifico', cursive
+        text-shadow 0 0 0 10px black
+
+    h2
+        font-size: 1.7em
+        font-weight: 50
+        font-family: 'Bad Script', sans-serif
+        text-shadow 0 0 0 10px black
+
+    .text
+
+        .button
+            margin-top: 30px
+
+.secondary.pointing.menu .toc.item
+    display: none
+
+/*
+.ui.vertical.stripe
+    padding: 8em 0em
+
+    h3
+        font-size: 2em
+
+    .button + h3, p + h3
+        margin-top: 3em
+
+    .floated.image
+        clear: both
+
+    p
+        font-size: 1.33em
+
+    .horizontal.divider
+        margin: 3em 0em
+
+.quote.stripe.segment
+    padding: 0em
+
+    .grid .column
+          padding-top: 5em
+          padding-bottom: 5em
+
+.footer.segment
+    padding: 5em 0em
+*/
+
+@media only screen and (max-width: 700px)
+    .ui.fixed.menu
+        display: none !important
+
+    .secondary.pointing.menu
+        .item, .menu
+            display: none
+
+        .toc.item
+            display: block
+
+    .masthead
+        &.segment
+            min-height: 350px
+
+        h1.ui.header
+            font-size: 2em
+            margin-top: 1.5em
+
+        h2
+            margin-top: 0.5em
+            font-size: 1.5em

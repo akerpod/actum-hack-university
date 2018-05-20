@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css?family=Jura|Pacifico|Bad+Script");
+body {
+  background-color: #130e1f !important;
+}
+.wrap .masthead.segment {
+  padding: 10px 0;
+  min-height: 62px;
+  position: relative;
+}
+.wrap .bg {
+  background-image: url("../images/bg.jpeg");
+  background-position: center center;
+  background-size: 100% auto;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.wrap .shadow-bg {
+  background-color: rgba(0,0,0,0.6);
+  vertical-align: top;
+  margin-top: -10px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+.wrap .container-wrap {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+  display: table;
+}
+.wrap .ui.menu .ui.button {
+  margin-left: 0.5em;
+  transition: all 0.2s 0s ease-out;
+  -moz-transition: all 0.2s 0s ease-out;
+  -webkit-transition: all 0.2s 0s ease-out;
+  -o-transition: all 0.2s 0s ease-out;
+}
+.wrap .headpage {
+  margin-top: 20px !important;
+  margin-bottom: 30px !important;
+  font-family: 'Jura', sans-serif;
+  font-weight: 100;
+}
+.wrap .cards .card {
+  background-color: #232323 !important;
+  box-shadow: 0px 0px 5px 0px #000;
+}
+.wrap .cards .card:hover {
+  box-shadow: 0px 0px 5px 0px rgba(46,204,64,0.5) !important;
+}
+.wrap .cards .card .content {
+  color: #fff !important;
+}
+.wrap .cards .card .content .header {
+  font-family: 'Jura', sans-serif;
+  font-weight: 100;
+  color: #fff !important;
+}
+.wrap .cards .card .content .meta,
+.wrap .cards .card .content .description {
+  color: rgba(255,255,255,0.6) !important;
+}
+.wrap .cards .card .content .members,
+.wrap .cards .card .content .keys {
+  margin-right: 10px;
+}
+.wrap .navbar {
+  margin: 0 !important;
+}
+.wrap .main-logo {
+  padding-top: 15px !important;
+  transition: all 0.2s 0s ease-out;
+  -moz-transition: all 0.2s 0s ease-out;
+  -webkit-transition: all 0.2s 0s ease-out;
+  -o-transition: all 0.2s 0s ease-out;
+}
+.wrap .main-logo img {
+  display: inline-block;
+  margin-top: -4px;
+  margin-right: 20px;
+  opacity: 0.5;
+  transition: opacity 0.2s 0s ease-out;
+  -moz-transition: opacity 0.2s 0s ease-out;
+  -webkit-transition: opacity 0.2s 0s ease-out;
+  -o-transition: opacity 0.2s 0s ease-out;
+}
+.wrap .main-logo .logo-text {
+  display: inline-block;
+  font-family: 'Pacifico', sans-serif;
+  font-weight: 100;
+}
+.wrap .main-logo:hover > img {
+  opacity: 1;
+}
+.secondary.pointing.menu .toc.item {
+  display: none;
+}
